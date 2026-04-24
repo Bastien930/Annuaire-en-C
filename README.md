@@ -12,7 +12,7 @@
 
 👤 **Bastien BAVYE**
 
-* Website: portfolio.bastien-bavye.fr
+* Website: https://portfolio.bastien-bavye.fr
 * Github: [@Bastien930](https://github.com/Bastien930)
 
 ## Show your support
