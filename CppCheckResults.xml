@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<results version="2">
+    <cppcheck version="2.16.0" />
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tri.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tri.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="tri.c" line="3" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.h" line="17" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.h" line="16" column="0" />
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="tri.c">
+            <location file="tri.c" line="0" column="0" />
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;temp&apos; can be reduced." verbose="The scope of the variable &apos;temp&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="tri.c">
+            <location file="tri.c" line="12" column="12" />
+            <symbol>temp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;resultats&apos; is assigned a value that is never used." verbose="Variable &apos;resultats&apos; is assigned a value that is never used." cwe="563" file0="tri.c">
+            <location file="tri.c" line="260" column="19" />
+            <symbol>resultats</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="3" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ctype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ctype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="10" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="11" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;errno.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="12" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;conio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;conio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="client.c" line="13" column="0" />
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="client.c">
+            <location file="client.c" line="0" column="0" />
+        </error>
+        <error id="AssignmentIntegerToAddress" severity="portability" msg="Assigning an integer to a pointer is not portable." verbose="Assigning an integer (int/long/etc) to a pointer is not portable across different platforms and compilers. For example in 32-bit Windows and linux they are same width, but in 64-bit Windows and linux they are of different width. In worst case you end up assigning 64-bit integer to 32-bit pointer. The safe way is to store addresses only in pointer types (or typedefs like uintptr_t)." cwe="758" file0="client.c">
+            <location file="client.c" line="527" column="17" />
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;msg&lt;=9-1&apos; is redundant or the array &apos;TABLEAU_CHAINES[9]&apos; is accessed at index 9, which is out of bounds." verbose="Either the condition &apos;msg&lt;=9-1&apos; is redundant or the array &apos;TABLEAU_CHAINES[9]&apos; is accessed at index 9, which is out of bounds." cwe="788" file0="client.c">
+            <location file="client.c" line="100" column="45" info="Array index out of bounds" />
+            <location file="client.c" line="135" column="38" info="Assuming that condition &apos;msg&lt;=9-1&apos; is not redundant" />
+        </error>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;msg&gt;=0&apos; is redundant or the array &apos;TABLEAU_CHAINES[9]&apos; is accessed at index -1, which is out of bounds." verbose="Either the condition &apos;msg&gt;=0&apos; is redundant or the array &apos;TABLEAU_CHAINES[9]&apos; is accessed at index -1, which is out of bounds." cwe="786" file0="client.c">
+            <location file="client.c" line="100" column="45" info="Negative array index" />
+            <location file="client.c" line="135" column="27" info="Assuming that condition &apos;msg&gt;=0&apos; is not redundant" />
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;existe_tel&apos; can be reduced." verbose="The scope of the variable &apos;existe_tel&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="client.c">
+            <location file="client.c" line="404" column="10" />
+            <symbol>existe_tel</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;new_client&apos; can be reduced." verbose="The scope of the variable &apos;new_client&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="client.c">
+            <location file="client.c" line="405" column="12" />
+            <symbol>new_client</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;reponse&apos; can be reduced." verbose="The scope of the variable &apos;reponse&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="client.c">
+            <location file="client.c" line="518" column="10" />
+            <symbol>reponse</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: new_client.date_naissance" verbose="Uninitialized variable: new_client.date_naissance" cwe="457" file0="client.c">
+            <location file="client.c" line="411" column="43" />
+            <symbol>new_client</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: new_client.date_naissance" verbose="Uninitialized struct member: new_client.date_naissance" cwe="457" file0="client.c">
+            <location file="client.c" line="411" column="43" />
+            <symbol>new_client.date_naissance</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="utilitaire.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="utilitaire.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="utilitaire.c" line="3" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="utilitaire.c" line="6" column="0" />
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;mois_prec&apos; can be reduced." verbose="The scope of the variable &apos;mois_prec&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="utilitaire.c">
+            <location file="utilitaire.c" line="30" column="9" />
+            <symbol>mois_prec</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;ctype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;ctype.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.c" line="4" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdbool.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.c" line="5" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="validation.c" line="6" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="affichage.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="affichage.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="affichage.c" line="3" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;conio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;conio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="affichage.c" line="7" column="0" />
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;age&apos; can be reduced." verbose="The scope of the variable &apos;age&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="affichage.c">
+            <location file="affichage.c" line="75" column="9" />
+            <symbol>age</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;age&apos; can be reduced." verbose="The scope of the variable &apos;age&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="affichage.c">
+            <location file="affichage.c" line="85" column="9" />
+            <symbol>age</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;DATE::jour&apos; is never used." verbose="struct member &apos;DATE::jour&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="33" column="9" />
+            <symbol>DATE::jour</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;DATE::mois&apos; is never used." verbose="struct member &apos;DATE::mois&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="34" column="9" />
+            <symbol>DATE::mois</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;DATE::annee&apos; is never used." verbose="struct member &apos;DATE::annee&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="35" column="9" />
+            <symbol>DATE::annee</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::prenom&apos; is never used." verbose="struct member &apos;CLIENT::prenom&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="48" column="10" />
+            <symbol>CLIENT::prenom</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::nom&apos; is never used." verbose="struct member &apos;CLIENT::nom&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="48" column="25" />
+            <symbol>CLIENT::nom</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::ville&apos; is never used." verbose="struct member &apos;CLIENT::ville&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="49" column="10" />
+            <symbol>CLIENT::ville</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::cp&apos; is never used." verbose="struct member &apos;CLIENT::cp&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="50" column="10" />
+            <symbol>CLIENT::cp</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::telephone&apos; is never used." verbose="struct member &apos;CLIENT::telephone&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="51" column="10" />
+            <symbol>CLIENT::telephone</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::adresse_mail&apos; is never used." verbose="struct member &apos;CLIENT::adresse_mail&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="52" column="10" />
+            <symbol>CLIENT::adresse_mail</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::profession&apos; is never used." verbose="struct member &apos;CLIENT::profession&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="53" column="10" />
+            <symbol>CLIENT::profession</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;CLIENT::date_naissance&apos; is never used." verbose="struct member &apos;CLIENT::date_naissance&apos; is never used." cwe="563" file0="client.h">
+            <location file="client.h" line="54" column="10" />
+            <symbol>CLIENT::date_naissance</symbol>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdio.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="main.c" line="1" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;stdlib.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="main.c" line="2" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="main.c" line="3" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;time.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="main.c" line="4" column="0" />
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;windows.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="main.c" line="6" column="0" />
+        </error>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="main.c">
+            <location file="main.c" line="0" column="0" />
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;taille_max&apos; is assigned a value that is never used." verbose="Variable &apos;taille_max&apos; is assigned a value that is never used." cwe="563" file0="main.c">
+            <location file="main.c" line="24" column="20" />
+            <symbol>taille_max</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;flag&apos; is assigned a value that is never used." verbose="Variable &apos;flag&apos; is assigned a value that is never used." cwe="563" file0="main.c">
+            <location file="main.c" line="27" column="14" />
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: option" verbose="Unused variable: option" cwe="563" file0="main.c">
+            <location file="main.c" line="26" column="10" />
+            <symbol>option</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: valide_reponse" verbose="Unused variable: valide_reponse" cwe="563" file0="main.c">
+            <location file="main.c" line="28" column="10" />
+            <symbol>valide_reponse</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_0&apos; is never used." verbose="The function &apos;option_0&apos; is never used." cwe="561">
+            <location file="client.c" line="402" column="0" />
+            <symbol>option_0</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_2&apos; is never used." verbose="The function &apos;option_2&apos; is never used." cwe="561">
+            <location file="client.c" line="445" column="0" />
+            <symbol>option_2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_4&apos; is never used." verbose="The function &apos;option_4&apos; is never used." cwe="561">
+            <location file="client.c" line="468" column="0" />
+            <symbol>option_4</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_5&apos; is never used." verbose="The function &apos;option_5&apos; is never used." cwe="561">
+            <location file="client.c" line="473" column="0" />
+            <symbol>option_5</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_6&apos; is never used." verbose="The function &apos;option_6&apos; is never used." cwe="561">
+            <location file="client.c" line="514" column="0" />
+            <symbol>option_6</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;option_7&apos; is never used." verbose="The function &apos;option_7&apos; is never used." cwe="561">
+            <location file="client.c" line="546" column="0" />
+            <symbol>option_7</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" />
+    </errors>
+</results>

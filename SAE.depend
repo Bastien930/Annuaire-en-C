@@ -1,0 +1,398 @@
+# depslib dependency file v1.0
+1734367108 source:z:\mes documents\sae_dev\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+
+1734363484 z:\mes documents\sae_dev\projet\message.h
+
+1734361838 z:\mes documents\sae_dev\projet\client.h
+
+1734366771 z:\mes documents\sae_dev\projet\fonction.h
+	"message.h"
+	"client.h"
+	<stdbool.h>
+
+1734367440 source:z:\mes documents\sae_dev\projet\fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1734684162 source:d:\but1\dev\sae\sae_dev\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+
+1734425770 d:\but1\dev\sae\sae_dev\projet\message.h
+
+1734361840 d:\but1\dev\sae\sae_dev\projet\client.h
+
+1734682414 d:\but1\dev\sae\sae_dev\projet\fonction.h
+	"message.h"
+	"client.h"
+	<stdbool.h>
+
+1734684058 source:d:\but1\dev\sae\sae_dev\projet\fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1734426810 source:f:\but1\dev\sae\sae_dev\projet\fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1734425770 f:\but1\dev\sae\sae_dev\projet\message.h
+
+1734361840 f:\but1\dev\sae\sae_dev\projet\client.h
+
+1734426234 f:\but1\dev\sae\sae_dev\projet\fonction.h
+	"message.h"
+	"client.h"
+	<stdbool.h>
+
+1734423740 source:f:\but1\dev\sae\sae_dev\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+
+1735507334 source:e:\but1\dev\sae\sae_dev\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+	"affichage.h"
+	"tri.h"
+	"validation.h"
+	"utilitaire.h"
+	<time.h>
+
+1734425770 e:\but1\dev\sae\sae_dev\projet\message.h
+
+1735507890 e:\but1\dev\sae\sae_dev\projet\client.h
+	"message.h"
+	<stdbool.h>
+
+1735507162 e:\but1\dev\sae\sae_dev\projet\fonction.h
+
+1735061470 source:e:\but1\dev\sae\sae_dev\projet\fonction.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"fonction.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1735504900 source:e:\but1\dev\sae\sae_dev\projet\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"client.h"
+	"tri.h"
+
+1735507902 source:e:\but1\dev\sae\sae_dev\projet\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1735504878 source:e:\but1\dev\sae\sae_dev\projet\validation.c
+	<stdio.h>
+	<stdlib.h>
+	"validation.h"
+	<ctype.h>
+	<stdbool.h>
+	<string.h>
+
+1735505124 source:e:\but1\dev\sae\sae_dev\projet\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"affichage.h"
+	"client.h"
+
+1735505190 source:e:\but1\dev\sae\sae_dev\projet\utilitaire.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	<time.h>
+
+1735506762 e:\but1\dev\sae\sae_dev\projet\utilitaire.h
+
+1735504298 e:\but1\dev\sae\sae_dev\projet\tri.h
+
+1735507236 e:\but1\dev\sae\sae_dev\projet\affichage.h
+	"client.h"
+
+1735507494 e:\but1\dev\sae\sae_dev\projet\validation.h
+	<stdbool.h>
+	"client.h"
+
+1735573344 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"affichage.h"
+	"client.h"
+
+1735607361 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\utilitaire.h
+
+1735577405 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\affichage.h
+	"client.h"
+
+1735607185 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\client.h
+	"message.h"
+	<stdbool.h>
+
+1735577563 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\message.h
+
+1735608989 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"utilitaire.h"
+	"validation.h"
+	"affichage.h"
+	"tri.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+
+1735607715 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	"message.h"
+	"client.h"
+	"affichage.h"
+	"tri.h"
+	"validation.h"
+	"utilitaire.h"
+
+1735577426 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\tri.h
+
+1735608764 c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\validation.h
+	<stdbool.h>
+	"client.h"
+
+1735607448 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"client.h"
+	"tri.h"
+
+1735571345 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\utilitaire.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"validation.h"
+	<time.h>
+
+1735608606 source:c:\users\etulyon1\but1\clone_usb\but1\dev\sae\sae_dev\projet\validation.c
+	<stdio.h>
+	<stdlib.h>
+	"validation.h"
+	<ctype.h>
+	<stdbool.h>
+	<string.h>
+
+1735940085 source:c:\users\etulyon1\sae\projet_final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	"message.h"
+	"client.h"
+	"affichage.h"
+	"tri.h"
+	"validation.h"
+	"utilitaire.h"
+
+1735577563 c:\users\etulyon1\sae\projet_final\message.h
+
+1735940991 c:\users\etulyon1\sae\projet_final\client.h
+	"message.h"
+	<stdbool.h>
+
+1735774107 c:\users\etulyon1\sae\projet_final\affichage.h
+	"client.h"
+
+1735830283 c:\users\etulyon1\sae\projet_final\tri.h
+
+1735830085 c:\users\etulyon1\sae\projet_final\validation.h
+	<stdbool.h>
+	"client.h"
+
+1735607361 c:\users\etulyon1\sae\projet_final\utilitaire.h
+
+1735831133 source:c:\users\etulyon1\sae\projet_final\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"client.h"
+	"validation.h"
+	"tri.h"
+
+1735571345 source:c:\users\etulyon1\sae\projet_final\utilitaire.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"validation.h"
+	<time.h>
+
+1735829818 source:c:\users\etulyon1\sae\projet_final\validation.c
+	<stdio.h>
+	<stdlib.h>
+	"validation.h"
+	<ctype.h>
+	<stdbool.h>
+	<string.h>
+
+1735832846 source:c:\users\etulyon1\sae\projet_final\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"affichage.h"
+	"client.h"
+	<conio.h>
+
+1735832853 source:c:\users\etulyon1\sae\projet_final\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"utilitaire.h"
+	"validation.h"
+	"affichage.h"
+	"tri.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+	<conio.h>
+
+1735832846 source:c:\users\etulyon1\but1\dev\sae\sae\affichage.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"affichage.h"
+	"client.h"
+	<conio.h>
+
+1735607361 c:\users\etulyon1\but1\dev\sae\sae\utilitaire.h
+
+1735774107 c:\users\etulyon1\but1\dev\sae\sae\affichage.h
+	"client.h"
+
+1736616291 c:\users\etulyon1\but1\dev\sae\sae\client.h
+	"message.h"
+	<stdbool.h>
+
+1735577563 c:\users\etulyon1\but1\dev\sae\sae\message.h
+
+1735949356 source:c:\users\etulyon1\but1\dev\sae\sae\client.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"message.h"
+	"client.h"
+	"utilitaire.h"
+	"validation.h"
+	"affichage.h"
+	"tri.h"
+	<ctype.h>
+	<stdbool.h>
+	<errno.h>
+	<conio.h>
+
+1736521333 c:\users\etulyon1\but1\dev\sae\sae\validation.h
+	<stdbool.h>
+	"client.h"
+
+1736521109 c:\users\etulyon1\but1\dev\sae\sae\tri.h
+
+1736524140 source:c:\users\etulyon1\but1\dev\sae\sae\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<windows.h>
+	"message.h"
+	"client.h"
+	"affichage.h"
+	"tri.h"
+	"validation.h"
+	"utilitaire.h"
+
+1735947293 source:c:\users\etulyon1\but1\dev\sae\sae\tri.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"client.h"
+	"validation.h"
+	"tri.h"
+
+1735571345 source:c:\users\etulyon1\but1\dev\sae\sae\utilitaire.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utilitaire.h"
+	"validation.h"
+	<time.h>
+
+1735944810 source:c:\users\etulyon1\but1\dev\sae\sae\validation.c
+	<stdio.h>
+	<stdlib.h>
+	"validation.h"
+	<ctype.h>
+	<stdbool.h>
+	<string.h>
+

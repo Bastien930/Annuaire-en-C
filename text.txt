@@ -1,0 +1,4 @@
+ligne fixe b,a,c ,,e@gmail.com,d,01/01/2005
+a,b,c 01500,,bonjour@gmazil.com,d,01/01/2005
+efef,fefe, ,,edoueiud@.com,,00/00/   0
+,, ,,defjneo@gami.xii,,01/01/2000
