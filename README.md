@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Développement en binôme d'un annuaire d'utilisateurs en C avec interface terminal permettant d'ajouter, modifier, supprimer, trier et rechercher des entrées.
+> Développement d'un annuaire d'utilisateurs en C avec interface terminal permettant d'ajouter, modifier, supprimer, trier et rechercher des entrées.
 
 ## Author
 
